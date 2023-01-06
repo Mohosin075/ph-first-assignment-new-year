@@ -1,0 +1,54 @@
+/* Universal styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* common styles */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.btn{
+    background-color: #5A47EF;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all .5s;
+}
+.btn:hover{
+    color: #e1e1de;
+    border: 1px solid #5A47EF;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+/* header section */
+header {
+  background-image: url(images/banner/banner3.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.header-details {
+  text-align: right;
+  padding-top: 150px;
+}
+.header-details h1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #fff;
+}
+.header-details p{
+    margin-bottom: 30px;
+}
