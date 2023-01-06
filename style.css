@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 /* common styles */
 .container {
@@ -19,6 +20,7 @@
   text-decoration: none;
   color: #ffffff;
   transition: all 0.3s;
+  font-weight: normal;
 }
 .btn:hover {
   color: #e1e1de;
@@ -92,9 +94,12 @@ header {
 
 /* blog section */
 .our-blogs{
-    padding: 80px 0;
+    padding: 50px 0;
+    margin-top: 30px;
     text-align: center;
+    background-color: rgb(245, 237, 226);
 }
+
 .our-blogs h2{
     
 }
@@ -106,6 +111,7 @@ header {
 }
 .blog{
     box-shadow: 5px 5px 10px 5px gray;
+    background-color: #ffffff;
 }
 .info{
     padding: 10px;
@@ -155,6 +161,7 @@ header {
 /* our-plan section */
 .our-plan{
     text-align: center;
+    margin-top: 50px;
 }
 .our-plan h2{
     margin-bottom: 30px;
@@ -163,6 +170,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    
 }
 .plan img{
     margin-bottom: 10px;
