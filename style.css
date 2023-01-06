@@ -8,27 +8,31 @@
   width: 80%;
   margin: auto;
 }
-.btn{
-    background-color: #5A47EF;
-    padding: 10px 15px;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #fff;
-    text-decoration: none;
-    color: #FFFFFF;
-    transition: all .5s;
+.btn {
+  background-color: #5a47ef;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.5s;
 }
-.btn:hover{
-    color: #e1e1de;
-    border: 1px solid #5A47EF;
+.btn:hover {
+  color: #e1e1de;
+  border: 1px solid #5a47ef;
 }
-
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
 .text {
   font-size: 16px;
   line-height: 26px;
-  color: #FFFFFF;
   padding: 10px 0;
 }
 
@@ -49,6 +53,97 @@ header {
   line-height: 76px;
   color: #fff;
 }
-.header-details p{
-    margin-bottom: 30px;
+.header-details p {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* failures section */
+.my-failures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  height: 70vh;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+.my-failures img {
+  width: 40%;
+  padding-left: 50px;
+}
+.failures-details{
+    width: 40%;
+}
+.failures-details p{
+    color: #444343;
+}
+.failures-details ul{
+    
+}
+.failures-details ul li{
+    color: #444343;
+    list-style: none;
+}
+.failures-details ul li span{
+    color: green;
+}
+
+/* blog section */
+.our-blogs{
+    padding: 80px 0;
+    text-align: center;
+}
+.our-blogs h2{
+    
+}
+.blogs{
+    display: flex;
+    gap: 70px;
+    text-align: left;
+    padding: 20px 0;
+}
+.blog{
+    box-shadow: 5px 5px 10px 5px gray;
+}
+.info{
+    padding: 10px;
+}
+.info h3{
+    font-size: 25px;
+    line-height: 30px;
+}
+.info p{
+    font-size: 15px;
+    margin-bottom: 20px;
+   
+}
+.blog img{
+    width: 100%;
+}
+.our-blogs p{
+    margin: 10px 0;
+}
+.info a{
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 7px 10px;
+}
+.blog:hover{
+    box-shadow: 6px 6px 10px 6px gray;
+}
+.more-blog{
+    margin-top: 30px;
+}
+.more-blog a{
+    background-color: #ffffff;
+    color: #5a47ef;
+    border: 1px solid #5a47ef;
+    padding: 7px 10px;
+    font-size: 14px;
+}
+.more-blog a:hover{
+    color: #ffffff;
+    background-color: #5a47ef;
 }
